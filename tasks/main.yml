@@ -1,2 +1,7 @@
 ---
 # tasks file for python_appserver_role
+- name: install mod_wsgi package
+  slackpkg: name=mod_wsgi state=present
+  notify:
+    - restart apache
+

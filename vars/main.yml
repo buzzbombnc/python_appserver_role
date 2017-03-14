@@ -1,2 +1,4 @@
 ---
 # vars file for python_appserver_role
+# (Re)start on install?
+apache_restart: true
